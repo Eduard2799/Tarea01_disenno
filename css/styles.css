@@ -1,0 +1,160 @@
+.letras{
+	display:block;
+	margin:0 auto;
+	max-height:10vh	
+}
+.bg{
+	display:block;
+	margin:0 auto;
+	max-height:60vh	
+}
+.texto{
+	text-align:center;
+	font-size: large;
+}
+#amount-custom{
+	padding-left:24px;
+	padding-right:24px;
+	text-align:center;
+	width: 50%
+}
+.btn1{
+	text-align:center;
+	padding-left:24px;
+	padding-right:24px;
+	width: 15%
+}
+#btn_dow{
+	background: #1771c8;
+	color: white;
+	height:6vh	
+}
+#payment-trust i{
+	font-size:2.5em;
+	padding:0 .05em;
+	vertical-align:middle
+}
+#payment-trust i span{
+	font-size:0
+}
+#download{
+	margin:3px auto 6px
+}
+.img_home{
+	margin-top: 220px;
+}
+.section2{
+	background-color: #7239b3;
+	color: white;
+}
+.sect2{
+	margin-left: 200px;
+}
+.sect2 p{
+	font-size: large;
+}
+.flat{
+	background:white;
+}
+.flat2{
+	background: #9d63e0;
+}
+.texto2{
+	display:inline-block;
+	vertical-align:top;
+	width:calc(66% - 48px);
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.texto2 p{
+	font-size: 20px;	
+}
+.p_sect3{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.notification{
+	border-radius:2px;
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 2px 8px rgba(0,0,0,.5);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 2px 8px rgba(0,0,0,.5);	
+}
+.window{
+	max-height:30vh	;
+}
+.texto3 p{
+	font-size: 17px;
+	margin-left: 10%;
+}
+
+.section3{
+	margin-left: 5%;
+	margin-right: 10%;
+}
+.section4{	
+	background-color:lightgrey
+}
+
+.div_sect4{
+	margin-left: 5%;
+	margin-right: 10%;
+}
+.div_sect4 p{
+	margin-left: 25px;
+}
+
+----------------
+
+#appcenter .app-display__description img{
+	display:block;
+	height:64px;
+	margin:0 auto 16px;
+	width:64px
+}
+@media(min-width:400px){
+	#appcenter .app-display__description img{
+		height:128px;margin:0 auto 32px;width:128px
+	}
+}
+.app-display__description svg{
+	float:left;margin:4px 6px 4px 0
+}
+#slingshot .app-display__description svg,#slingshot .app-display__description svg *{
+	color:#000!important;fill:#000!important
+}
+
+.img_control{
+	display:block;
+	margin:0 auto;
+	max-height:75vh;
+	margin-right: 10%;	
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.txt_section5{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.txt_section5 p{
+	text-align: left;
+}
+
+.img_sect6{
+	max-height:85vh;
+	margin-top: 5%;
+}
+
+.section6{	
+	background-color:lightgrey
+}
